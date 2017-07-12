@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+.contenedor, .principal, #item2 {
+  max-width: 1000px;
+  margin: auto; }
+
+header {
+  background-color: black; }
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid 2px #666666; }
+  nav ul {
+    list-style: none;
+    display: flex; }
+  nav a {
+    text-decoration: none;
+    padding: 10px;
+    color: #666666;
+    font-family: "Roboto", sans-serif; }
+    nav a:hover {
+      color: white;
+      border-bottom: solid 2px white; }
+
+.principal {
+  text-align: center;
+  font-family: "Roboto", sans-serif; }
+  .principal h1 {
+    color: white;
+    font-size: 58px; }
+  .principal p {
+    color: #666666;
+    margin: 44px;
+    max-width: 700px;
+    margin: auto;
+    padding-bottom: 45px; }
+  .principal a {
+    background: orange;
+    padding: 10px;
+    color: white;
+    text-decoration: none; }
+  .principal .flecha {
+    color: #666666;
+    padding-top: 75px;
+    padding-bottom: 23px;
+    font-size: 40px; }
+
+#item2 {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  padding: 20px 0; }
+  #item2 .articulos {
+    display: flex; }
+    #item2 .articulos article {
+      width: 33%;
+      padding: 15px 20px; }
+    #item2 .articulos span {
+      border: 2px #000000 solid;
+      border-radius: 50%;
+      display: flex;
+      width: 50px;
+      height: 50px;
+      justify-content: center;
+      align-items: center;
+      font-size: 25px;
+      margin: auto; }
+    #item2 .articulos p {
+      color: #666666;
+      font-size: 15px; }
+
+/*# sourceMappingURL=style.css.map */
