@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto");
-.contenedor, .principal, #item2 {
+.contenedor, .principal, #item2, .item3 {
   max-width: 1000px;
   margin: auto; }
 
@@ -48,7 +48,11 @@ nav {
 #item2 {
   text-align: center;
   font-family: "Roboto", sans-serif;
-  padding: 20px 0; }
+  padding: 20px 0;
+  /*item3*/ }
+  #item2 h2 {
+    color: orange;
+    font-size: 30px; }
   #item2 .articulos {
     display: flex; }
     #item2 .articulos article {
@@ -67,5 +71,30 @@ nav {
     #item2 .articulos p {
       color: #666666;
       font-size: 15px; }
+
+.fondo-porf {
+  background: #000000; }
+
+.item3 {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  padding: 20px 0; }
+  .item3 .ar-portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+  .item3 article {
+    padding: 5px;
+    margin: 30px 0px; }
+  .item3 h2 {
+    color: white;
+    font-size: 30px; }
+  .item3 h4 {
+    color: white;
+    font-size: 20px; }
+  .item3 p {
+    color: #666666;
+    font-size: 16px;
+    margin-top: -15px; }
 
 /*# sourceMappingURL=style.css.map */
